@@ -1,13 +1,13 @@
 {
-   "name": "Experimental Toretto App",
-   "description": "Fast & Safe new description",
-   "long_description": "Toretto is a tiny and fast app only for experimental purposes only",
-   "url": "https://raw.githubusercontent.com/cwadhwani-crest/ce_app_manifest_ssc/main/app_manifest.json",
-   "homepage": "https://example.com",
-   "developer": "example.com",
-   "logo_url": "https://example.com/assets/image.gif",
-   "namespace": "experimental_bare_app",
-   "signals": [
+    "name": "Experimental Toretto App",
+    "description": "Fast & Safe new description",
+    "long_description": "Toretto is a tiny and fast app only for experimental purposes only",
+    "url": "https://raw.githubusercontent.com/cwadhwani-crest/ce_app_manifest_ssc/main/app_manifest.json",
+    "homepage": "https://example.com",
+    "developer": "example.com",
+    "logo_url": "https://example.com/assets/image.gif",
+    "namespace": "experimental_bare_app",
+    "signals": [
         {
             "id": "experimental_bare_app.cci",
             "name": "Experimental App Score",
