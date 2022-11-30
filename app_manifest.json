@@ -1,40 +1,44 @@
 {
-    "name": "Experimental Toretto App",
-    "description": "Fast & Safe new description",
-    "long_description": "Toretto is a tiny and fast app only for experimental purposes only",
-    "url": "https://raw.githubusercontent.com/cwadhwani-crest/ce_app_manifest_ssc/main/app_manifest.json",
-    "homepage": "https://example.com",
+    "description": "Fast & Safe",
     "developer": "example.com",
+    "homepage": "https://example.com",
     "logo_url": "https://example.com/assets/image.gif",
+    "long_description": "Toretto is a tiny and fast app only for experimental purposes only",
+    "name": "Experimental Toretto App",
     "namespace": "experimental_bare_app",
     "signals": [
         {
-            "id": "experimental_bare_app.cci",
-            "name": "Experimental App Score",
-            "severity": "info",
             "factor": "patching_cadence",
-            "short_description": "risk or short description of this signal",
+            "id": "experimental_bare_app.cci",
             "long_description": "long description of this signal",
+            "name": "Experimental App Score",
             "recommendation": "how to remediate (if negative) or obtain (if positive) this signal",
+            "references": [
+                {
+                    "link": "https://www.google.com",
+                    "text": "human-readable title for this link"
+                }
+            ],
             "sent_by": "experimental_app-user",
-            "references": [{
-                "link": "https://www.google.com",
-                "text": "human-readable title for this link"
-            }]
+            "severity": "info",
+            "short_description": "risk or short description of this signal"
         },
         {
-            "id": "experimental_bare_app.label",
-            "name": "Experimental Risk",
-            "severity": "info",
             "factor": "application_security",
-            "short_description": "risk description of this signal",
+            "id": "experimental_bare_app.label",
             "long_description": "long description of this signal",
+            "name": "Experimental Risk",
             "recommendation": "how to remediate (if negative) or obtain (if positive) this signal",
+            "references": [
+                {
+                    "link": "https://www.google.com",
+                    "text": "human-readable title for this link"
+                }
+            ],
             "sent_by": "experimental_app-user",
-            "references": [{
-                "link": "https://www.google.com",
-                "text": "human-readable title for this link"
-            }]
+            "severity": "info",
+            "short_description": "risk description of this signal"
         }
-    ]
+    ],
+    "url": "https://raw.githubusercontent.com/cwadhwani-crest/ce_app_manifest_ssc/main/app_manifest.json"
 }
