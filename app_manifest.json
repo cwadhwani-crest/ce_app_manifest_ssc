@@ -2,7 +2,7 @@
    "name": "Experimental Toretto App 2",
    "description": "Fast & Safe",
    "long_description": "Toretto is a tiny and fast app only for experimental purposes only",
-   "url": "https://mohitmenpara.pythonanywhere.com/api/ssc/appmanifest",
+   "url": "https://raw.githubusercontent.com/cwadhwani-crest/ce_app_manifest_ssc/main/app_manifest.json",
    "homepage": "https://example.com",
    "developer": "example.com",
    "logo_url": "https://example.com/assets/image.gif",
