@@ -1,0 +1,40 @@
+{
+   "name": "Experimental Toretto App 2",
+   "description": "Fast & Safe",
+   "long_description": "Toretto is a tiny and fast app only for experimental purposes only",
+   "url": "https://mohitmenpara.pythonanywhere.com/api/ssc/appmanifest",
+   "homepage": "https://example.com",
+   "developer": "example.com",
+   "logo_url": "https://example.com/assets/image.gif",
+   "namespace": "experimental_bare_app",
+   "signals": [
+        {
+            "id": "experimental_bare_app.cci",
+            "name": "Experimental App Score",
+            "severity": "info",
+            "factor": "patching_cadence",
+            "short_description": "risk or short description of this signal",
+            "long_description": "long description of this signal",
+            "recommendation": "how to remediate (if negative) or obtain (if positive) this signal",
+            "sent_by": "experimental_app-user",
+            "references": [{
+                "link": "https://www.google.com",
+                "text": "human-readable title for this link"
+            }]
+        },
+        {
+            "id": "experimental_bare_app.label",
+            "name": "Experimental Risk",
+            "severity": "info",
+            "factor": "application_security",
+            "short_description": "risk description of this signal",
+            "long_description": "long description of this signal",
+            "recommendation": "how to remediate (if negative) or obtain (if positive) this signal",
+            "sent_by": "experimental_app-user",
+            "references": [{
+                "link": "https://www.google.com",
+                "text": "human-readable title for this link"
+            }]
+        }
+    ]
+}
